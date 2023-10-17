@@ -1,0 +1,19 @@
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #180505;
+    color: white;
+}
+.manger_bouger{
+    display: flex;
+    justify-content: center;
+}
+.Informations{
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+}
+.Horaires, .info, .Social{
+    padding-left: 60px;
+}
