@@ -6,42 +6,67 @@
 }
 
 #footer {
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #180505;
+    height: 350px;
+} 
+
+.footer-infos {
     display: flex;
     justify-content: center;
-    column-gap: 4rem;
-    background-color: #180505;
+    column-gap: 6rem;
     color: white;
     font-family: Quicksand;
 }
 
 #footer h2 {
     font-size: 27px;
+    
 }
 
 .contact {
     display: flex;
     flex-direction: column;
-    padding-top: 5%;
+    height: 255px;
 }
 
-.address {
+.contact .address {
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
-.phone {
+.contact .phone {
     color: white;
-    text-decoration: none;
+}
+
+.contact .phone:hover {
+    color: #ED3331;
+}
+
+.contact .mail {
+    padding-top: 2rem;
 }
 
 .schedule {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-top: 5%;
+    height: 255px;
+    line-height: 2rem;
+}
+
+.schedule-details {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.schedule h3 {
+    padding-top: 1rem;
+    font-size: 18px;
 }
 
 .schedule ul {
@@ -50,21 +75,33 @@
     line-height: 2rem;
 }
 
-.schedule li {
+.schedule ul li {
     list-style: none;
-
+    font-size: 15px;
 }
 
 .socials {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-bottom: 3rem;
-    line-height: 5rem;
+    height: 255px;
 }
 
 .socials-logos {
     display: flex;
     justify-content: center;
     column-gap: 0.5rem;
+    padding-top: 2rem;
+}
+
+.footer-credits a {
+    display: flex;
+    justify-content: center;
+    font-family: Quicksand;
+    font-style: italic;
+    font-size: 12px;
+    color: white;
+}
+
+.footer-credits a:hover {
+    color: #ED3331;
 }
