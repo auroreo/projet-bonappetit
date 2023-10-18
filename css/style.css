@@ -8,12 +8,10 @@
 #footer {
     height: 300px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    column-gap: 8rem;
+    column-gap: 4rem;
     background-color: #180505;
     color: white;
-    padding-bottom: 50px;
     font-family: Quicksand;
 }
 
@@ -24,32 +22,15 @@
 .contact {
     display: flex;
     flex-direction: column;
+    padding-top: 5%;
 }
-.Informations{
-    display: flex;
-    flex-direction: row;
-    padding-left: 90px;
-}
-.Horaires, .info, .Social {
-    padding-left: 90px;
-    padding-right: 90px;
-}
-.Social{
-    justify-content: center;
 
-}
-.reseaux{
+.address {
     display: flex;
     flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
-.mention{
-    display: flex;
-    align-items: center;
-}
-
-.schedule,.contact,.socials{
-    padding-left: 60px;
-}   
 
 .phone {
     color: white;
@@ -59,11 +40,27 @@
 .schedule {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.schedule ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
 }
 
 .schedule li {
     list-style: none;
-    line-height: 1.2rem;
+
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 3rem;
+    line-height: 5rem;
 }
 
 .socials-logos {
