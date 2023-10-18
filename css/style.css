@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Quicksand&display=swap');
+
+header ul {
+    background-color: #180505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5rem;
+    list-style: none;
+}
+
+header li a {
+    font-family: Quicksand;
+    font-weight: 30px;
+    color: white;
+}
