@@ -1,13 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 #footer {
+    height: 300px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    column-gap: 8rem;
     background-color: #180505;
     color: white;
     padding-bottom: 50px;
+    font-family: Quicksand;
 }
 
-.contact{
+#footer h2 {
+    font-size: 27px;
+}
+
+.contact {
     display: flex;
     flex-direction: column;
 }
@@ -36,3 +50,24 @@
 .schedule,.contact,.socials{
     padding-left: 60px;
 }   
+
+.phone {
+    color: white;
+    text-decoration: none;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule li {
+    list-style: none;
+    line-height: 1.2rem;
+}
+
+.socials-logos {
+    display: flex;
+    justify-content: center;
+    column-gap: 0.5rem;
+}
