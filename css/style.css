@@ -1,10 +1,40 @@
+
 .Reservation_title{
     background-color: #180505;
     color: white;
     display: flex;
     justify-content: center;  
 }
+main{
+    background-color: antiquewhite;
+}
+.titre_color{
+    color: #ED3232;
+}
 .reservation{
     justify-content: center;
     text-align: center;
+}
+.formulaire{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    gap: 30px;
+}
+.renseignement_1{
+    display: flex;
+    flex-direction: column;
+}
+.renseignement_2{
+    display: flex;
+    flex-direction: column;
+}
+.renseignement_3{
+    display: flex;
+    flex-direction: column;
+}
+.renseignement_4{
+    padding-left: 250px;
+    display: flex;
+    align-items: center;
 }

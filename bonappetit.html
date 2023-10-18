@@ -10,13 +10,54 @@
     <main>
         <section class="Reservation_title">
             <div class="reservation">
-                <h3>Réservation</h3>
+                <h3 class="titre_color">Réservation</h3>
                 <p>Pour passer un moment mémorable</p>
             </div>
         </section>
         <section class="formulaire">
-            
-        </section>
+            <div class="renseignement_1">
+                <form action="" method="post">
+                    <label for="name"><h4>Nom :</h4></label>
+                    <input type="text" name="name" placeholder="Ex : Thibault">
+                </form>
+                <form action="" method="post">
+                    <label for="email"><h4>Email :</h4></label>
+                    <input type="email" id="email" pattern=".+@globex\.com" size="20" placeholder="Ex : Thibault.b@gmail.com" required  />
+                </form>
+                <form action="" method="post">
+                    <label for="phone"><h4>Téléphone : </h4></label>
+                    <input type="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Ex : 06 01 02 03 04">   
+                </form>
+                <form action="" method="post">
+                    <label for="name"><h4>Message</h4></label>
+                    <input type="text" name="name" placeholder="...">
+                </form>
+            </div>
+            <div class="renseignement_2">
+                <form action="" method="post">
+                    <label for="appt"><h4>Heures : </h4></label>
+                    <input type="time" name="appt" min="09:00" max="23:00" required/>
+                </form>
+                <form action="" method="post">
+                    <label for="name"><h4>Date : </h4></label>
+                    <input type="date" name="date"/>
+                </form>
+            </div>
+            <div class="renseignement_3">
+                <form action="" method="post">
+                    <label for="name"><h4>Allergie : </h4></label>
+                    <input type="text" name="name" placeholder="Ex : Gluten">
+                </form>
+                <form action="" method="post">
+                    <label for="character"><h4>Place : </h4></label>
+                    <select id="character" name="character">
+                    <option value="choix">--Sélectionner un choix !--</option>
+                    <option>Terrasse</option>
+                    <option>Interrieur</option>
+                    </section>
+                </form>
+            </div> 
+        </section> 
     </main>
 </body>
 </html>
