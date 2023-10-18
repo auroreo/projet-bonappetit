@@ -1,16 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Quicksand&display=swap');
 
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
 header ul {
+    height: 150px;
     background-color: #180505;
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 5rem;
+    column-gap: 8rem;
     list-style: none;
 }
 
 header li a {
     font-family: Quicksand;
-    font-weight: 30px;
+    font-size: 20px;
     color: white;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color: #ED3331;
+}
+
+.logo {
+    height: 150px;
 }
