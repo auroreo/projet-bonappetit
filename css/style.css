@@ -4,6 +4,7 @@ footer {
     flex-direction: column;
     background-color: #180505;
     color: white;
+    padding-bottom: 50px;
 }
 .manger_bouger{
     display: flex;
@@ -14,6 +15,19 @@ footer {
     flex-direction: row;
     padding-left: 90px;
 }
-.Horaires, .info, .Social{
-    padding-left: 60px;
-}   
+.Horaires, .info, .Social {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.Social{
+    justify-content: center;
+
+}
+.reseaux{
+    display: flex;
+    flex-direction: column;
+}
+.mention{
+    display: flex;
+    align-items: center;
+}
