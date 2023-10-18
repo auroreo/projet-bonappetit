@@ -1,14 +1,15 @@
 
-footer {
+#footer {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     background-color: #180505;
     color: white;
     padding-bottom: 50px;
 }
-.manger_bouger{
+
+.contact{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 .Informations{
     display: flex;
@@ -31,3 +32,7 @@ footer {
     display: flex;
     align-items: center;
 }
+
+.schedule,.contact,.socials{
+    padding-left: 60px;
+}   
