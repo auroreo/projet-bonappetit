@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.introduction{
+    display: flex;
+    background-image: url(../assets/img/food_8_dark.jpg);
+    background-size: cover;
+    justify-content: center;
+
+
+
+}
+
+.texte{
+    display: flex;
+    flex-direction: column;
+}
+.bloc{
+    display: flex;
+    border-radius: 30px;
+    height: 229px;
+    width: 735px;
+    background-color: antiquewhite;
+    align-items: center;
+    padding: 10px;
+
+}
+.photo-michel{
+    border-radius: 30px;
+}
+.titre-du-texte{
+    font-size: 24px;
+    font-family:'Quicksand';
+}
