@@ -8,7 +8,7 @@
 #footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     background-color: #180505;
     height: 350px;
 } 
@@ -93,6 +93,10 @@
     padding-top: 2rem;
 }
 
+.socials-logos a:hover {
+    filter: invert(32%) sepia(87%) saturate(6008%) hue-rotate(351deg) brightness(101%) contrast(85%);
+}
+
 .footer-credits a {
     display: flex;
     justify-content: center;
@@ -100,6 +104,8 @@
     font-style: italic;
     font-size: 12px;
     color: white;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .footer-credits a:hover {
