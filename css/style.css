@@ -47,10 +47,9 @@ $RESET
     padding: 60px 100px 60px 100px;
     gap: 100px;
     justify-content: center;
-
     background-size: cover;
-    background-position: 100px 1000px;
-
+    background-repeat:no-repeat ;
+    background-position: 0px 0px 0px;
 
 }
 
@@ -117,6 +116,10 @@ $RESET
     border-radius: 100%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+.avis2 img:hover {
+    width: 200px;
+    height: 200px;
+}
 .avis2 h4{
     font-size: 32px;
     color: white;
@@ -155,6 +158,10 @@ $RESET
     height: 182px;
     border-radius: 100%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.avis3 img:hover {
+    width: 200px;
+    height: 200px;
 }
 .avis3 h4{
     font-size: 32px;
