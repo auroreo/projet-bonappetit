@@ -1,0 +1,10 @@
+.Reservation_title{
+    background-color: #180505;
+    color: white;
+    display: flex;
+    justify-content: center;  
+}
+.reservation{
+    justify-content: center;
+    text-align: center;
+}
