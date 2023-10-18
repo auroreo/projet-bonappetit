@@ -10,7 +10,7 @@ $RESET
     margin: 0;
     padding: 0;
 }
-.transition {
+.transition-témoignage {
     display: flex;
     justify-content: center;
     background-color: #180505;
@@ -20,7 +20,7 @@ $RESET
     padding-bottom: 10px;
 }
 
-.transition .txt {
+.transition-témoignage .txt {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,17 +28,30 @@ $RESET
     padding-bottom: 30px;
 }
 
-.transition h2 {
+.transition-témoignage h2 {
     color: #ED3232;
     font-size: 50px;
     font-family: "Charm","cursive";
 }
 
-.transition p {
+.transition-témoignage p {
     color: white;
     font-size:20px;
     font-family: "Quicksand","cursive";
     font-weight:600;
+}
+.principal-témoignage{
+    display: flex;
+    flex-direction: row;
+    background-image: url(../assets/img/venue_1_dark.jpg);
+    padding: 60px 100px 60px 100px;
+    gap: 100px;
+    justify-content: center;
+
+    background-size: cover;
+    background-position: 100px 1000px;
+
+
 }
 
 .avis1 {
@@ -47,17 +60,22 @@ $RESET
     width: 289px;
     height: 596px;
     align-items: center;
+    justify-content: space-evenly;
     background-color: #ED3331;
     border-radius: 30px;
-    padding-top: 22px;
-    padding-bottom: 22px;
     gap: 41px;
-
+    padding: 0px 25px 0px 25px;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.40);
 }
 .avis1 img {
     width: 182px;
     height: 182px;
     border-radius: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.avis1 img:hover {
+    width: 200px;
+    height: 200px;
 }
 .avis1 h4{
     font-size: 32px;
@@ -65,13 +83,94 @@ $RESET
     font-family: "Quicksand","cursive";
 }
 .avis1 p{
+    display: flex;
     font-size: 24px;
     color: white;
     font-family: "Quicksand","cursive";
+    text-align: center;
 }
 .avis1 h5{
     font-size: 20px;
-    font-style: italic;
+    font-style:italic;
+    color: white;
+    font-family: "Inter";
+}
+
+
+
+.avis2 {
+    display: flex;
+    flex-direction: column;
+    width: 289px;
+    height: 596px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ED3331;
+    border-radius: 30px;
+    gap: 41px;
+    padding: 0px 25px 0px 25px;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.40);
+}
+.avis2 img {
+    width: 182px;
+    height: 182px;
+    border-radius: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.avis2 h4{
+    font-size: 32px;
+    color: white;
+    font-family: "Quicksand","cursive";
+}
+.avis2 p{
+    display: flex;
+    font-size: 24px;
+    color: white;
+    font-family: "Quicksand","cursive";
+    text-align: center;
+}
+.avis2 h5{
+    font-size: 20px;
+    font-style:italic;
+    color: white;
+    font-family: "Inter";
+}
+
+
+.avis3 {
+    display: flex;
+    flex-direction: column;
+    width: 289px;
+    height: 596px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ED3331;
+    border-radius: 30px;
+    gap: 41px;
+    padding: 0px 25px 0px 25px;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.40);
+}
+.avis3 img {
+    width: 182px;
+    height: 182px;
+    border-radius: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.avis3 h4{
+    font-size: 32px;
+    color: white;
+    font-family: "Quicksand","cursive";
+}
+.avis3 p{
+    display: flex;
+    font-size: 24px;
+    color: white;
+    font-family: "Quicksand","cursive";
+    text-align: center;
+}
+.avis3 h5{
+    font-size: 20px;
+    font-style:italic;
     color: white;
     font-family: "Inter";
 }
