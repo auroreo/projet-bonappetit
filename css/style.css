@@ -2,35 +2,72 @@
 
 * {
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 
-header {
-    position: sticky;
-    top: 0;
-}
-
-header ul {
-    height: 150px;
-    background-color: #180505;
+#footer {
+    height: 300px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
     column-gap: 8rem;
-    list-style: none;
+    background-color: #180505;
+    color: white;
+    padding-bottom: 50px;
+    font-family: Quicksand;
 }
 
-header li a {
-    font-family: Quicksand;
-    font-size: 20px;
+#footer h2 {
+    font-size: 27px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+.Informations{
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+}
+.Horaires, .info, .Social {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.Social{
+    justify-content: center;
+
+}
+.reseaux{
+    display: flex;
+    flex-direction: column;
+}
+.mention{
+    display: flex;
+    align-items: center;
+}
+
+.schedule,.contact,.socials{
+    padding-left: 60px;
+}   
+
+.phone {
     color: white;
     text-decoration: none;
 }
 
-header li a:hover {
-    color: #ED3331;
+.schedule {
+    display: flex;
+    flex-direction: column;
 }
 
-.logo {
-    height: 150px;
+.schedule li {
+    list-style: none;
+    line-height: 1.2rem;
+}
+
+.socials-logos {
+    display: flex;
+    justify-content: center;
+    column-gap: 0.5rem;
 }
