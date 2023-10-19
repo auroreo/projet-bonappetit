@@ -208,3 +208,63 @@
     </footer>
 </body>
 </html>
+    <main>
+        <section class="Reservation_title">
+            <div class="reservation">
+                <h3 class="titre_color">Réservation</h3>
+                <p class="Pour_passer_un_moment_mémorable">Pour passer un moment mémorable</p>
+            </div>
+        </section>
+        <section class="formulaire">
+            <form action="" method="post">
+                <div class="up">
+                    <div class="info">
+                        <label for="name"><h4>Nom :*</h4></label>
+                        <input type="text" name="name" class="border" placeholder="Ex : Thibault">
+                                    
+                        <label for="email"><h4>Email :*</h4></label>
+                        <input type="email" id="email" pattern=".+@globex\.com" size="20" placeholder="Ex : Thibault.b@gmail.com" required  />
+                                        
+                        <label for="phone"><h4>Téléphone :* </h4></label>
+                        <input type="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Ex : 06 01 02 03 04">   
+                    </div>
+
+                    <div class="time">            
+                        <label for="appt"><h4>Heures :* </h4></label>
+                        <input type="time" name="appt" min="09:00" max="23:00" required/>
+                                    
+                        <label for="date"><h4>Date :* </h4></label>
+                        <input type="date" name="date"/>                  
+                    </div>
+
+                    <div class="info2">
+                        <label for="allergie"><h4>Allergie : </h4></label>
+                        <input type="text" name="name" placeholder="Ex : Gluten">
+                                    
+                        <label for="place"><h4>Place :* </h4></label>
+                        <select name="place" id="place">
+                            <option value="">--Sélectionner un choix !--</option>
+                            <option value="terrasse">Terrasse</option>
+                            <option value="interieur">Intérieur</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="final">
+                    <div class="msg">         
+                        <label for="name"><h4>Message :</h4></label>
+                        <input id="border" type="text" name="name">
+                    </div>
+                        
+                    <div class="bouton_envoyer">
+                        <div class="bouton_v">
+                            <input type="submit" id="button" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+            </div>
+        </section>        
+    </main>
+</body>
+</html>
