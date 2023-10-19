@@ -1,15 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Dosis&family=Quicksand&display=swap');
 
 .Reservation_title{
     background-color: #180505;
     color: white;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
+    padding: 0px;  
 }
 main{
     background-color: antiquewhite;
 }
 .titre_color{
     color: #ED3232;
+    font-family: Charm;
+    font-size: 50px;
+    font-weight: bold;
 }
 .reservation{
     justify-content: center;
@@ -20,6 +25,7 @@ main{
     justify-content: center;
     background-color: antiquewhite;
     gap: 30px;
+    
 }
 .renseignement_1{
     display: flex;
@@ -59,4 +65,7 @@ input, select{
     border: 1px solid #180505 ;
 
 }
-
+.Pour_passer_un_moment_mémorable{
+    font-family: Quicksand;
+    font-style: 20px;
+}
