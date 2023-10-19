@@ -25,6 +25,7 @@ header li a {
     font-size: 20px;
     color: white;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 header li a:hover {
