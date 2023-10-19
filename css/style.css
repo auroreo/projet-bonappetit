@@ -313,3 +313,67 @@ header li a:hover {
 .footer-credits a:hover {
     color: #ED3331;
 }
+
+.introduction{
+    background-image: url(../assets/img/food_8_dark.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255, 0.5);
+    background-blend-mode: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 313px;
+    width: 100%;
+
+
+}
+
+
+.texte{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    padding-left: 5%;
+}
+.bloc{
+    display: flex;
+    border-radius: 30px;
+    height: 229px;
+    width: 735px;
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    box-shadow: 0 3px 34px rgb(0, 0, 0, 0.5);
+
+}
+.photo-michel{
+    border-radius: 30px;
+
+}
+.titre-du-texte{
+    display: flex;
+    font-size: 24px;
+    font-family:'Quicksand';
+    background-color:#180505;
+    height: 40px;
+    width: auto;
+    color: white;
+    border-radius: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+
+
+}
+
+.paragraphe {
+    font-size: 15px;
+    font-family: 'Dosis';
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: bold;
+}
