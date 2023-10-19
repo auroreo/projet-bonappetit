@@ -41,6 +41,7 @@
 
 .contact .phone {
     color: white;
+    transition: 0.3s;
 }
 
 .contact .phone:hover {
@@ -88,13 +89,18 @@
 
 .socials-logos {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.socials-logos a {
     column-gap: 0.5rem;
     padding-top: 2rem;
+    fill: white;
+    transition: 0.3s;
 }
 
 .socials-logos a:hover {
-    filter: invert(32%) sepia(87%) saturate(6008%) hue-rotate(351deg) brightness(101%) contrast(85%);
+    fill:#ED3331
 }
 
 .footer-credits a {
@@ -106,6 +112,7 @@
     color: white;
     padding-top: 1rem;
     padding-bottom: 0.5rem;
+    transition: 0.3s;
 }
 
 .footer-credits a:hover {
