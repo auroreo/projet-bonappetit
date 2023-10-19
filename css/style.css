@@ -28,6 +28,7 @@
     flex-direction: column;
     padding: 15px;
     align-items: center;
+    padding-left: 5%;
 }
 .bloc{
     display: flex;
@@ -38,12 +39,15 @@
     align-items: center;
     padding: 10px;
     justify-content: center;
+    box-shadow: 0 3px 34px rgb(0, 0, 0, 0.5);
 
 }
 .photo-michel{
     border-radius: 30px;
+
 }
 .titre-du-texte{
+    display: flex;
     font-size: 24px;
     font-family:'Quicksand';
     background-color:#180505;
@@ -51,13 +55,16 @@
     width: auto;
     color: white;
     border-radius: 30px;
-    padding-left: 122px;
-    padding-right: 122px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+
 
 }
 .paragraphe{
     font-size: 15px;
     font-family: 'Dosis';
-    padding-top: 13px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
 }
