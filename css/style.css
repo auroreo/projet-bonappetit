@@ -39,7 +39,70 @@ header li a:hover {
     height: 150px;
 }
 
-/* *********************************  **********************$ */
+/* ********************************* INTRO **********************$ */
+
+.introduction{
+    background-image: url(../assets/img/food_8_dark.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255, 0.5);
+    background-blend-mode: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 313px;
+    width: 100%;
+}
+
+.texte{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    padding-left: 5%;
+}
+.bloc{
+    display: flex;
+    border-radius: 30px;
+    height: 229px;
+    width: 735px;
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    box-shadow: 0 3px 34px rgb(0, 0, 0, 0.5);
+
+}
+.photo-michel{
+    border-radius: 30px;
+
+}
+.titre-du-texte{
+    display: flex;
+    font-size: 24px;
+    font-family:'Quicksand';
+    background-color:#180505;
+    height: 40px;
+    width: auto;
+    color: white;
+    border-radius: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+
+
+}
+
+.paragraphe {
+    font-size: 15px;
+    font-family: 'Dosis';
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: bold;
+}
+
+/* ********************************* MENU **********************$ */
 
 .menu-head {
     background-color: #180505;
@@ -196,6 +259,183 @@ header li a:hover {
     line-height: 3rem;
     padding-top: 1.5rem;
 }
+
+/* ********************************* MENU **********************$ */
+
+.transition-témoignage {
+    display: flex;
+    justify-content: center;
+    background-color: #180505;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.transition-témoignage .txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.transition-témoignage h2 {
+    color: #ED3232;
+    font-size: 50px;
+    font-family: "Charm","cursive";
+}
+
+.transition-témoignage p {
+    color: white;
+    font-size:20px;
+    font-family: "Quicksand","cursive";
+    font-weight:600;
+}
+.principal-témoignage{
+    display: flex;
+    flex-direction: row;
+    background-image: url(../assets/img/venue_1_dark.jpg);
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: color;
+    padding: 60px 100px 60px 100px;
+    gap: 100px;
+    justify-content: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: 100px 100px 0px;
+
+}
+
+.avis1 {
+    display: flex;
+    flex-direction: column;
+    width: 289px;
+    height: 596px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ED3331;
+    border-radius: 30px;
+    gap: 41px;
+    padding: 0px 25px 0px 25px;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.40);
+}
+.avis1 img {
+    width: 182px;
+    height: 182px;
+    border-radius: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+.avis1 img:hover {
+    width: 200px;
+    height: 200px;
+}
+.avis1 h4{
+    font-size: 32px;
+    color: white;
+    font-family: "Quicksand","cursive";
+}
+.avis1 p{
+    display: flex;
+    font-size: 24px;
+    color: white;
+    font-family: "Quicksand","cursive";
+    text-align: center;
+}
+.avis1 h5{
+    font-size: 20px;
+    font-style:italic;
+    color: white;
+    font-family: "Inter";
+}
+
+.avis2 {
+    display: flex;
+    flex-direction: column;
+    width: 289px;
+    height: 596px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ED3331;
+    border-radius: 30px;
+    gap: 41px;
+    padding: 0px 25px 0px 25px;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.40);
+}
+.avis2 img {
+    width: 182px;
+    height: 182px;
+    border-radius: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+.avis2 img:hover {
+    width: 200px;
+    height: 200px;
+}
+.avis2 h4{
+    font-size: 32px;
+    color: white;
+    font-family: "Quicksand","cursive";
+}
+.avis2 p{
+    display: flex;
+    font-size: 24px;
+    color: white;
+    font-family: "Quicksand","cursive";
+    text-align: center;
+}
+.avis2 h5{
+    font-size: 20px;
+    font-style:italic;
+    color: white;
+    font-family: "Inter";
+}
+
+.avis3 {
+    display: flex;
+    flex-direction: column;
+    width: 289px;
+    height: 596px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ED3331;
+    border-radius: 30px;
+    gap: 41px;
+    padding: 0px 25px 0px 25px;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.40);
+}
+.avis3 img {
+    width: 182px;
+    height: 182px;
+    border-radius: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+.avis3 img:hover {
+    width: 200px;
+    height: 200px;
+}
+.avis3 h4{
+    font-size: 32px;
+    color: white;
+    font-family: "Quicksand","cursive";
+}
+.avis3 p{
+    display: flex;
+    font-size: 24px;
+    color: white;
+    font-family: "Quicksand","cursive";
+    text-align: center;
+}
+.avis3 h5{
+    font-size: 20px;
+    font-style:italic;
+    color: white;
+    font-family: "Inter";
+}
+
 /* ********************************* FOOTER **********************$ */
 
 #footer {
@@ -312,245 +552,4 @@ header li a:hover {
 
 .footer-credits a:hover {
     color: #ED3331;
-}
-
-.introduction{
-    background-image: url(../assets/img/food_8_dark.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-color: rgb(255, 255, 255, 0.5);
-    background-blend-mode: color;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 313px;
-    width: 100%;
-
-
-}
-
-
-.texte{
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    align-items: center;
-    padding-left: 5%;
-}
-.bloc{
-    display: flex;
-    border-radius: 30px;
-    height: 229px;
-    width: 735px;
-    background-color: white;
-    align-items: center;
-    padding: 10px;
-    justify-content: center;
-    box-shadow: 0 3px 34px rgb(0, 0, 0, 0.5);
-
-}
-.photo-michel{
-    border-radius: 30px;
-
-}
-.titre-du-texte{
-    display: flex;
-    font-size: 24px;
-    font-family:'Quicksand';
-    background-color:#180505;
-    height: 40px;
-    width: auto;
-    color: white;
-    border-radius: 30px;
-    padding-left: 10%;
-    padding-right: 10%;
-    align-items: center;
-
-
-}
-
-.paragraphe {
-    font-size: 15px;
-    font-family: 'Dosis';
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-weight: bold;
-}
-
-.transition-témoignage {
-    display: flex;
-    justify-content: center;
-    background-color: #180505;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.transition-témoignage .txt {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.transition-témoignage h2 {
-    color: #ED3232;
-    font-size: 50px;
-    font-family: "Charm","cursive";
-}
-
-.transition-témoignage p {
-    color: white;
-    font-size:20px;
-    font-family: "Quicksand","cursive";
-    font-weight:600;
-}
-.principal-témoignage{
-    display: flex;
-    flex-direction: row;
-    background-image: url(../assets/img/venue_1_dark.jpg);
-    background-color: rgba(255, 255, 255, 0.5);
-    background-blend-mode: color;
-    padding: 60px 100px 60px 100px;
-    gap: 100px;
-    justify-content: center;
-    background-size: cover;
-    background-repeat:no-repeat ;
-    background-position: 100px 100px 0px;
-
-}
-
-.avis1 {
-    display: flex;
-    flex-direction: column;
-    width: 289px;
-    height: 596px;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #ED3331;
-    border-radius: 30px;
-    gap: 41px;
-    padding: 0px 25px 0px 25px;
-    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.40);
-}
-.avis1 img {
-    width: 182px;
-    height: 182px;
-    border-radius: 100%;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    transition: 0.3s;
-}
-.avis1 img:hover {
-    width: 200px;
-    height: 200px;
-}
-.avis1 h4{
-    font-size: 32px;
-    color: white;
-    font-family: "Quicksand","cursive";
-}
-.avis1 p{
-    display: flex;
-    font-size: 24px;
-    color: white;
-    font-family: "Quicksand","cursive";
-    text-align: center;
-}
-.avis1 h5{
-    font-size: 20px;
-    font-style:italic;
-    color: white;
-    font-family: "Inter";
-}
-
-
-
-.avis2 {
-    display: flex;
-    flex-direction: column;
-    width: 289px;
-    height: 596px;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #ED3331;
-    border-radius: 30px;
-    gap: 41px;
-    padding: 0px 25px 0px 25px;
-    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.40);
-}
-.avis2 img {
-    width: 182px;
-    height: 182px;
-    border-radius: 100%;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    transition: 0.3s;
-}
-.avis2 img:hover {
-    width: 200px;
-    height: 200px;
-}
-.avis2 h4{
-    font-size: 32px;
-    color: white;
-    font-family: "Quicksand","cursive";
-}
-.avis2 p{
-    display: flex;
-    font-size: 24px;
-    color: white;
-    font-family: "Quicksand","cursive";
-    text-align: center;
-}
-.avis2 h5{
-    font-size: 20px;
-    font-style:italic;
-    color: white;
-    font-family: "Inter";
-}
-
-
-.avis3 {
-    display: flex;
-    flex-direction: column;
-    width: 289px;
-    height: 596px;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #ED3331;
-    border-radius: 30px;
-    gap: 41px;
-    padding: 0px 25px 0px 25px;
-    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.40);
-}
-.avis3 img {
-    width: 182px;
-    height: 182px;
-    border-radius: 100%;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    transition: 0.3s;
-}
-.avis3 img:hover {
-    width: 200px;
-    height: 200px;
-}
-.avis3 h4{
-    font-size: 32px;
-    color: white;
-    font-family: "Quicksand","cursive";
-}
-.avis3 p{
-    display: flex;
-    font-size: 24px;
-    color: white;
-    font-family: "Quicksand","cursive";
-    text-align: center;
-}
-.avis3 h5{
-    font-size: 20px;
-    font-style:italic;
-    color: white;
-    font-family: "Inter";
 }
