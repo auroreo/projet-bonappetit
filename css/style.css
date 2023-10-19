@@ -34,7 +34,43 @@ main{
     flex-direction: column;
 }
 .renseignement_4{
-    padding-left: 250px;
     display: flex;
-    align-items: center;
+    padding-left: 490px;
 }
+.bouton_envoyer{
+    display: flex;
+    justify-content: center;
+}
+#button{
+    background-color: #180505;
+    border-radius: 10px;
+    border: 4px double #180505;
+    color:#FFF;
+    cursor: pointer;
+    padding: 1px 20px;
+    margin: 5px 4px;
+}
+h4{
+    color: #180505;
+}
+#border{
+    border-radius: 10px;
+    border: 4px double #180505;
+    border-color: #180505;
+}
+#email{
+    border-radius: 10px;
+    border: 4px double #180505;
+    border-color: #180505;
+}
+#phone{
+    border-radius: 10px;
+    border: 4px double #180505;
+    border-color: #180505;
+}
+#place{
+    border-radius: 10px;
+    border: 4px double #180505;
+    border-color: #180505;
+}
+
