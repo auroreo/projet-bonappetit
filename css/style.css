@@ -41,7 +41,7 @@ header li a:hover {
 
 /* ********************************* INTRO **********************$ */
 
-.introduction{
+.introduction {
     background-image: url(../assets/img/food_8_dark.jpg);
     background-size: cover;
     background-position: 50% 50%;
@@ -104,6 +104,10 @@ header li a:hover {
 
 /* ********************************* MENU **********************$ */
 
+#menu {
+    height: 150px;
+}
+
 .menu-head {
     background-color: #180505;
     display: flex;
@@ -130,14 +134,14 @@ header li a:hover {
     flex-direction: column;
 }
 
-.section-menu h3 {
+#section-menu h3 {
     font-family: Quicksand;
     font-size: 43px;
     padding-left: 18%;
     padding-top: 1rem;
 }
 
-.section-menu hr {
+#section-menu hr {
     height: 4px;
     background-color: #180505;
     border: none;
