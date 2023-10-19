@@ -64,7 +64,7 @@ header li a:hover {
 .menu h3 {
     font-family: Quicksand;
     font-size: 43px;
-    padding-left: 25%;
+    padding-left: 18%;
     padding-top: 1rem;
 }
 
@@ -72,12 +72,12 @@ header li a:hover {
     height: 4px;
     background-color: #180505;
     border: none;
-    width: 50%;
+    width: 65%;
     margin: auto;
     
 }
 
-.undercategory-cards {
+.undercategory-entry-cards {
     height: 380px;
     display: flex;
     justify-content: center;
@@ -91,8 +91,46 @@ header li a:hover {
     background-position: 25% 40%;
 }
 
-.undercategory-cards-block {
+.undercategory-plates-cards {
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3rem;
+    align-items: center;
+    background-image: url(../assets/img/plates-background.jpg);
+    background-color: rgba(255,255,255,0.5);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 25% 40%;
+}
 
+.undercategory-cards-block1 {
+    display: flex;
+    column-gap: 7rem;
+}
+
+.undercategory-cards-block2 {
+    display: flex;
+    column-gap: 7rem;
+}
+
+.undercategory-desserts-cards {
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    column-gap: 7rem;
+    align-items: center;
+    background-image: url(../assets/img/desserts-background.jpg);
+    background-color: rgba(255,255,255,0.5);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 10% 55%;
+}
+
+.undercategory-cards-block {
     display: flex;
     align-items: center;
     background-color: white;
@@ -119,7 +157,16 @@ header li a:hover {
     width: 106px;
     object-fit: cover;
     object-position: 75%;
-    padding-left: 1rem;
+    margin-left: 1rem;
+    border-radius: 35px;
+}
+
+.block3-photo {
+    height: 160px;
+    width: 106px;
+    object-fit: cover;
+    object-position: 30%;
+    margin-left: 1rem;
     border-radius: 35px;
 }
 
