@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Charm&family=Dosis&family=Quicksand&display=swap');
+/* 
+$RESET 
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
 
 .Reservation_title{
     background-color: #180505;
     color: white;
     display: flex;
     justify-content: center;
-    padding: 0px;  
+    padding: 0px;
+    height: 162px;
+    align-items: center;
 }
 main{
     background-color: antiquewhite;
@@ -21,28 +30,57 @@ main{
     text-align: center;
 }
 .formulaire{
+    padding: 59px 100px;
+}
+.up{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    background-color: antiquewhite;
-    gap: 30px;
-    
+    background-color: FFF2E3;
+    gap: 48px;
 }
-.renseignement_1{
+.up input{
+    width: 270px;
+    height: 39px;
+}
+.formulaire h4{
+    font-family: Dosis;
+    font-weight: bold;
+    font-size: 30px;
+}
+.info{
     display: flex;
     flex-direction: column;
 }
-.renseignement_2{
+.time{
     display: flex;
     flex-direction: column;
+    width: 270px;
+    height: 487;
 }
-.renseignement_3{
+.info2{
     display: flex;
     flex-direction: column;
+    width: 270px;
+    height: 487;
 }
-.renseignement_4{
+
+.up .place{
+    width: 270px;
+    height: 39px;
+}
+
+.final .msg{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    margin-left: 110px;
 }
+
+.msg input {
+    height: 307px;
+    width: 913px;
+}
+
 .bouton_envoyer{
     display: flex;
     justify-content: center;
@@ -56,6 +94,9 @@ main{
     cursor: pointer;
     padding: 1px 20px;
     margin: 5px 4px;
+    width: 179px;
+    height: 39px;
+    align-items: center;
 }
 h4{
     color: #180505;

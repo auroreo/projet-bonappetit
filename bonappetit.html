@@ -16,46 +16,49 @@
         </section>
         <section class="formulaire">
             <form action="" method="post">
-            <div class="renseignement_1">
+                <div class="up">
+                    <div class="info">
+                        <label for="name"><h4>Nom :*</h4></label>
+                        <input type="text" name="name" class="border" placeholder="Ex : Thibault">
+                                    
+                        <label for="email"><h4>Email :*</h4></label>
+                        <input type="email" id="email" pattern=".+@globex\.com" size="20" placeholder="Ex : Thibault.b@gmail.com" required  />
+                                        
+                        <label for="phone"><h4>Téléphone :* </h4></label>
+                        <input type="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Ex : 06 01 02 03 04">   
+                    </div>
 
-                    <label for="name"><h4>Nom :</h4></label>
-                    <input type="text" name="name" class="border" placeholder="Ex : Thibault">
-                            
-                    <label for="email"><h4>Email :</h4></label>
-                    <input type="email" id="email" pattern=".+@globex\.com" size="20" placeholder="Ex : Thibault.b@gmail.com" required  />
-                                
-                    <label for="phone"><h4>Téléphone : </h4></label>
-                    <input type="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Ex : 06 01 02 03 04">   
+                    <div class="time">            
+                        <label for="appt"><h4>Heures :* </h4></label>
+                        <input type="time" name="appt" min="09:00" max="23:00" required/>
+                                    
+                        <label for="date"><h4>Date :* </h4></label>
+                        <input type="date" name="date"/>                  
+                    </div>
+
+                    <div class="info2">
+                        <label for="allergie"><h4>Allergie : </h4></label>
+                        <input type="text" name="name" placeholder="Ex : Gluten">
+                                    
+                        <label for="place"><h4>Place :* </h4></label>
+                        <select name="place" id="place">
+                            <option value="">--Sélectionner un choix !--</option>
+                            <option value="terrasse">Terrasse</option>
+                            <option value="interieur">Intérieur</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="renseignement_2">            
-                    <label for="appt"><h4>Heures : </h4></label>
-                    <input id="border" type="time" name="appt" min="09:00" max="23:00" required/>
-                                
-                    <label for="name"><h4>Date : </h4></label>
-                    <input id="border" type="date" name="date"/>
-                                
-                </div>
-                <div class="renseignement_3">
-                    <label for="name"><h4>Allergie : </h4></label>
-                    <input id="border" type="text" name="name" placeholder="Ex : Gluten">
-                                
-                    <label for="place"><h4>Place :</h4></label>
-                    <select name="place" id="place">
-                        <option value="">--Sélectionner un choix !--</option>
-                        <option value="terrasse">Térrasses</option>
-                        <option value="interieur">interieur</option>
-                    </select>
-                </div> <br>
-            
-                <div class="renseignement_4">
-                            
-                    <label for="name"><h4>Message :</h4></label>
-                    <input id="border" type="text" name="name" size="73" placeholder="...">
-                </div>
-                    
-                <div class="bouton_envoyer">
-                    <div class="bouton_v">
-                        <input type="submit" id="button" />
+                
+                <div class="final">
+                    <div class="msg">         
+                        <label for="name"><h4>Message :</h4></label>
+                        <input id="border" type="text" name="name" placeholder="...">
+                    </div>
+                        
+                    <div class="bouton_envoyer">
+                        <div class="bouton_v">
+                            <input type="submit" id="button" />
+                        </div>
                     </div>
                 </div>
             </form>
