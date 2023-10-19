@@ -5,6 +5,41 @@
     padding: 0; 
 }
 
+/* ****************************** HEADER **********************$ */
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+header ul {
+    height: 150px;
+    background-color: #180505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8rem;
+    list-style: none;
+}
+
+header li a {
+    font-family: Quicksand;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+header li a:hover {
+    color: #ED3331;
+}
+
+.logo {
+    height: 150px;
+}
+
+/* ********************************* FOOTER **********************$ */
+
 #footer {
     display: flex;
     flex-direction: column;
@@ -19,6 +54,8 @@
     column-gap: 6rem;
     color: white;
     font-family: Quicksand;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 #footer h2 {
