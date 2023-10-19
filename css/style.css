@@ -35,11 +35,12 @@ main{
 }
 .renseignement_4{
     display: flex;
-    padding-left: 490px;
+    justify-content: center;
 }
 .bouton_envoyer{
     display: flex;
     justify-content: center;
+
 }
 #button{
     background-color: #180505;
@@ -53,24 +54,9 @@ main{
 h4{
     color: #180505;
 }
-#border{
+input, select{
     border-radius: 10px;
-    border: 4px double #180505;
-    border-color: #180505;
-}
-#email{
-    border-radius: 10px;
-    border: 4px double #180505;
-    border-color: #180505;
-}
-#phone{
-    border-radius: 10px;
-    border: 4px double #180505;
-    border-color: #180505;
-}
-#place{
-    border-radius: 10px;
-    border: 4px double #180505;
-    border-color: #180505;
+    border: 1px solid #180505 ;
+
 }
 
