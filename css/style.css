@@ -61,14 +61,14 @@ header li a:hover {
     flex-direction: column;
 }
 
-.menu h3 {
+.section-menu h3 {
     font-family: Quicksand;
     font-size: 43px;
     padding-left: 18%;
     padding-top: 1rem;
 }
 
-.menu hr {
+.section-menu hr {
     height: 4px;
     background-color: #180505;
     border: none;
